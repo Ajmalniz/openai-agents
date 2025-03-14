@@ -39,7 +39,7 @@ async def start():
     agent: Agent = Agent(name="Assistant", instructions="You are a helpful assistant", model=model)
     cl.user_session.set("agent", agent)
 
-    await cl.Message(content="Welcome to the Panaversity AI Assistant! How can I help you today?").send()
+    await cl.Message(content="Welcome to the Ajmal Khan AI Assistant! How can I help you today?").send()
 
 @cl.on_message
 async def main(message: cl.Message):
