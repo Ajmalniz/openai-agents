@@ -2,4 +2,13 @@
 .env
 .mypy_cache
 .chainlite
-
+.env
+__pycache__/
+.DS_Store
+.venv
+.env
+.mypy_cache
+.files
+.chainlit
+__pycache___
+index.html
