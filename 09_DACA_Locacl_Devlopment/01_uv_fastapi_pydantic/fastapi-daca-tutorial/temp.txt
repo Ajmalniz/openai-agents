@@ -1,5 +1,0 @@
-pacakge to installed 
-pip install email-validator
-print(user.dict()) dict is depretied inted use model_dump()
-print(user.model_dump())
-ValidationError is not imported from pydantic
