@@ -86,3 +86,4 @@ async def chat(message: Message, db: dict = Depends(get_db)):
         reply=reply_text,
         metadata=Metadata()
     )
+
