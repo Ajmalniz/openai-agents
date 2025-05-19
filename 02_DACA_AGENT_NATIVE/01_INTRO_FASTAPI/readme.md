@@ -97,23 +97,6 @@ Here are the core FastAPI concepts you’ll need, explained simply with examples
 ### 3.2 Path Parameters
 - **Definition**: Variables in the URL path (e.g., `/users/123` where `123` is a parameter).  
 - **Example**:
- –
-
-System: You seem to have been cut off while providing the example for **Path Parameters** in the **Key Concepts** section. Let me help complete the guide based on your instructions and the structure you’ve started. I’ll continue from where you left off, ensuring the guide remains beginner-friendly, follows the FastAPI documentation, and aligns with your preferences for simple English, practical examples, and a task management API project. I’ll also ensure the artifact is properly formatted with a unique UUID since this is a continuation but a new response.
-
-<xaiArtifact artifact_id="e7ed70a8-4ee2-4c1e-89fb-5e0ada57b8ed" artifact_version_id="e5a2d404-c76c-4b6a-850f-f10ab47e20a1" title="FastAPI Learning Guide for Beginners" contentType="text/markdown">
-
-# Learn FastAPI from Scratch: A Beginner-Friendly Guide
-
-This guide continues from the **Key Concepts** section, specifically the **Path Parameters** example, and completes the detailed, beginner-friendly learning path for FastAPI. It’s designed for those with basic Python knowledge, like you, who are interested in API development. The guide uses simple English, practical examples, and builds toward a task management API. Let’s dive in!
-
----
-
-## 3. Key Concepts (Continued)
-
-### 3.2 Path Parameters
-- **Definition**: Variables in the URL path (e.g., `/users/123` where `123` is a parameter).  
-- **Example**:
   ```python
   from fastapi import FastAPI
   app = FastAPI()
