@@ -50,7 +50,7 @@ FastAPI is a Python framework for building APIs quickly and efficiently. It’s 
    ```
 3. **Create a Project Folder**:
    ```bash
-   mkdir fastapi-learning
+   uv init fastapi-learning
    cd fastapi-learning
    ```
 4. **Set Up a Virtual Environment** (recommended to isolate dependencies):
@@ -60,7 +60,7 @@ FastAPI is a Python framework for building APIs quickly and efficiently. It’s 
    ```
 5. **Install FastAPI and Uvicorn**:
    ```bash
-   uv pip install fastapi uvicorn
+   uv add "fastapi[standard]"
    ```
    - **FastAPI**: The framework itself.  
    - **Uvicorn**: An ASGI server to run your FastAPI app.  
