@@ -1,8 +1,8 @@
 # Build & Sell n8n AI Agents (8+ Hour Course, No Code) - Detailed Notes
-#url 
-'''
+# url 
+''
 https://www.youtube.com/watch?v=Ey18PDiaAYI&t=2s
-'''
+''
 ## Introduction (~0:00 - 0:15:00)
 - **Overview**: The course teaches how to build and monetize AI agents using n8n, a no-code automation platform, without requiring programming skills.
 - **Target Audience**: Beginners, entrepreneurs, and small business owners looking to automate tasks or create sellable AI solutions.
