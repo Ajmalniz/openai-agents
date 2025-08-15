@@ -36,14 +36,14 @@ You'll create a **Calendar Agent** - an AI assistant that can:
 Open your terminal/command prompt and type these commands one by one:
 
 ```bash
-# Create a new folder for your project
+# Create new UV project
 uv init hello_a2a
-
-# Go into that folder
 cd hello_a2a
 
-# Install the tools we need
-uv add a2a-sdk uvicorn
+# Add official A2A SDK and dependencies
+uv add "a2a-sdk[http-server]" uvicorn
+# After next released i.e: 3.1 it may change to uv add "a2a-sdk[http-server]"[http-server]
+# see: https://github.com/a2aproject/a2a-python/pull/217
 ```
 
 **What this does**: Creates a new project folder and installs the A2A toolkit.
